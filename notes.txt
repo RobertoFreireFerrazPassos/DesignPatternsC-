@@ -1,0 +1,7 @@
+dotnet new console
+dotnet run
+control + '
+dir
+cd + folder
+cls
+F5 for debug
