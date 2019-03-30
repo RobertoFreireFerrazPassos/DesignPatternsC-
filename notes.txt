@@ -1,9 +1,0 @@
-dotnet new console
-dotnet run
-control + '
-dir
-cd + folder
-cls
-F5 for debug
-git remote add origin  https://github.com/RobertoFrgithub.com/RobertoFreireFerrazPassos/DesignPatternsCsharp.git
-git push -u origin master
