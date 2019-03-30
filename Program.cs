@@ -4,10 +4,10 @@ namespace DesignPattern
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             DesignPatterns Build = new DesignPatterns();
-            Build.Choose(DesignPatternsEnum.Prototype);
+            Build.Choose(DesignPatternsEnum.Adapter);
             Console.Read();
         }
     }
@@ -32,6 +32,9 @@ public class DesignPatterns{
             break; 
             case DesignPatternsEnum.Prototype:
                     dp = new RunPrototype();
+            break;
+            case DesignPatternsEnum.Adapter:
+                    dp = new RunAdapter();
             break;
         }
 
