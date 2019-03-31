@@ -98,9 +98,9 @@ public interface IFuncionario
         public void FuncionarioInfo()
         {   
             for(int i=0; i<nivel;i++)
-                {
-                    Console.Write("   ");
-                }
+            {
+                Console.Write("   ");
+            }
             Console.WriteLine("{0} é {1}.",nome,funcao);
             foreach(IFuncionario funcionario in funcionarioLista)
             {
@@ -126,9 +126,9 @@ public interface IFuncionario
         public void FuncionarioInfo()
         {   
             for(int i=0; i<nivel;i++)
-                {
-                    Console.Write("   ");
-                }
+            {
+                Console.Write("   ");
+            }
             Console.WriteLine("{0} é {1}.",nome,funcao);
             foreach(IFuncionario funcionario in funcionarioLista)
             {

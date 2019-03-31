@@ -7,31 +7,26 @@ public class DesignPatterns
         switch (designpattern)
         {
             case DesignPatternsEnum.Singleton:
-                dp = new RunSingleton();
-            break;
+                dp = new RunSingleton(); break;
             case DesignPatternsEnum.FactoryMethod:
-                dp = new RunFactoryMethod();
-            break;
+                dp = new RunFactoryMethod(); break;
             case DesignPatternsEnum.AbstractFactory:
-                dp = new RunAbstractFactory();
-            break; 
-            case DesignPatternsEnum.Prototype:
-                dp = new RunPrototype();
-            break;
+                dp = new RunAbstractFactory(); break; 
+            case DesignPatternsEnum.Prototype: 
+                dp = new RunPrototype(); break;
             case DesignPatternsEnum.Adapter:
-                dp = new RunAdapter();
-            break;
+                dp = new RunAdapter(); break;
             case DesignPatternsEnum.Facade:
-                dp = new RunFacade();
-            break;
+                dp = new RunFacade(); break;
             case DesignPatternsEnum.Proxy:
-                dp = new RunProxy();
-            break;
+                dp = new RunProxy(); break;
             case DesignPatternsEnum.Composite:
-                dp = new RunComposite();
-            break;
+                dp = new RunComposite(); break;
+            case DesignPatternsEnum.Decorator:
+                dp = new RunDecorator(); break;
+            case DesignPatternsEnum.Flyweight:
+                dp = new RunFlyweight(); break;
         }
-
         dp.Run();           
     }
 }
