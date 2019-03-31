@@ -6,7 +6,7 @@ namespace DesignPattern
     {
         static void Main()
         {
-            DesignPatterns.Choose(DesignPatternsEnum.Flyweight);
+            DesignPatterns.Choose(DesignPatternsEnum.ChainofResponsibility);
             Console.Read();
         }
     }
