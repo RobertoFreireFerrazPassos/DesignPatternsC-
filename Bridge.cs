@@ -28,6 +28,8 @@ public class DesignPatterns
                 dp = new RunFlyweight(); break;
             case DesignPatternsEnum.ChainofResponsibility:
                 dp = new RunChainofResponsibility(); break;
+            case DesignPatternsEnum.State:
+                dp = new RunState(); break;    
         }
         dp.Run();           
     }
