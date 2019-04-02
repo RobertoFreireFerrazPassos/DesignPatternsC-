@@ -29,7 +29,9 @@ public class DesignPatterns
             case DesignPatternsEnum.ChainofResponsibility:
                 dp = new RunChainofResponsibility(); break;
             case DesignPatternsEnum.State:
-                dp = new RunState(); break;    
+                dp = new RunState(); break;  
+            case DesignPatternsEnum.Command:
+                dp = new RunCommand(); break;  
         }
         dp.Run();           
     }

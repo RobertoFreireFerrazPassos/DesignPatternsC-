@@ -6,8 +6,8 @@ namespace DesignPattern
     {
         static void Main()
         {
-            DesignPatterns.Choose(DesignPatternsEnum.State);
-            Console.WriteLine("Design Pattern finished.");
+            DesignPatterns.Choose(DesignPatternsEnum.Command);
+            Console.WriteLine("{0} design pattern finished.",DesignPatternsEnum.Command);
             Console.Read();
         }
     }
