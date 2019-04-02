@@ -92,6 +92,7 @@ public class invokerDb
         {
             comando.Execute();
         }
+        this._commandList.Clear();
     }
 }
 public class dataBaseCores

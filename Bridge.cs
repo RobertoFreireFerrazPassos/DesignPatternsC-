@@ -31,7 +31,9 @@ public class DesignPatterns
             case DesignPatternsEnum.State:
                 dp = new RunState(); break;  
             case DesignPatternsEnum.Command:
-                dp = new RunCommand(); break;  
+                dp = new RunCommand(); break;
+            case DesignPatternsEnum.Visitor:
+                dp = new RunVisitor(); break;
         }
         dp.Run();           
     }
